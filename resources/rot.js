@@ -37,22 +37,28 @@ rot_lims.forEach((rot_node) => {
 })
 
 
+// bottom text
+const footer = document.querySelector(".footer");
+if (footer !== null) {
+    footer.innerHTML = "redspah, " + (new Date()).getFullYear() + " | Site made in raw html and dumb css";
+}
+
 
 /// HIDDEN
 const whoami = document.querySelector(".whoami");
 if (whoami !== null) {
-whoami.addEventListener('copy', (event) => {
-    event.clipboardData.setData('text/plain', 'HALFMOON');
-    event.preventDefault();
-});
+    whoami.addEventListener('copy', (event) => {
+        event.clipboardData.setData('text/plain', 'HALFMOON');
+        event.preventDefault();
+    });
 }
 
 const girlfailure = document.querySelector(".girlfailure");
 if (girlfailure !== null) {
-girlfailure.addEventListener('click', (event) => {
-    girlfailure.innerHTML = '<img src="./resources/girlfailure.png" alt="Our beloved girlfailure, Sue"></img><p>(Gardevoir)</p>'
-    event.preventDefault();
-});
+    girlfailure.addEventListener('click', (event) => {
+        girlfailure.innerHTML = '<img src="./resources/girlfailure.png" alt="Our beloved girlfailure, Sue"></img><p>(Gardevoir)</p>'
+        event.preventDefault();
+    });
 }
 
 

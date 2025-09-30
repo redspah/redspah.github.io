@@ -43,7 +43,6 @@ if (footer !== null) {
     footer.innerHTML = "redspah, " + (new Date()).getFullYear() + " | Site made in raw html and dumb css";
 }
 
-
 /// HIDDEN
 const whoami = document.querySelector(".whoami");
 if (whoami !== null) {

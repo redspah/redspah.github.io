@@ -43,7 +43,7 @@ body {
 }
 	
 .text {
-	font-family: "Courier New","Comic Sans MS", monospace;
+	font-family: "Courier","Courier New", "Comic Sans MS", monospace;
 	font-weight: 200;
 	font-size: 16px;
 	color: #0AD423;
